@@ -1,0 +1,194 @@
+/* Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Navigation */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+/* About Section */
+#about {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.project p {
+    margin-top: 10px;
+}
+
+/* Skills and Hobbies Section */
+#skills-hobbies {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.skills, .hobbies {
+    width: 45%;
+}
+
+.skills h2, .hobbies h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.progress-bar {
+    width: 80%;
+    height: 25px;
+    background-color: #e0e0e0;
+    border-radius: 12px;
+    margin: 10px auto;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 12px;
+    width: 0;
+    transition: width 1s ease;
+}
+
+.html {
+    width: 90%; /* Adjust according to your proficiency */
+    background-color: #f15c40;
+}
+
+.css {
+    width: 85%;
+    background-color: #2965f1;
+}
+
+.javascript {
+    width: 80%;
+    background-color: #f0db4f;
+}
+
+.react {
+    width: 75%;
+    background-color: #61dafb;
+}
+
+.hobbies ul {
+    list-style: none;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.hobbies ul li {
+    padding: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
